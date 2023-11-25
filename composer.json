@@ -1,0 +1,36 @@
+{
+  "name": "trehinos/thor-process",
+  "type": "library",
+  "description": "Executable, KernelInterface & Dispatcher",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Thor\\Process\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\": "tests/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Sébastien GELDREICH",
+      "email": "trehinos@gmail.com"
+    }
+  ],
+  "repositories": {
+    "trehinos/thor-common": {
+      "type": "vcs",
+      "url": "https://asgard.trehinos.eu/thor2/thor-common"
+    }
+  },
+  "require": {
+    "php": "^8.2",
+    "trehinos/thor-common": "dev-master"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "10.*"
+  }
+}
