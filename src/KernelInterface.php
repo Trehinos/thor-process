@@ -25,12 +25,4 @@ interface KernelInterface extends Executable
      */
     public static function createFromConfiguration(Configuration $config): static;
 
-    /**
-     * This function return a new KernelInterface with default configuration.
-     * It SHOULD load a configuration file and use it to instantiate the Kernel.
-     *
-     * @return static
-     */
-    public static function create(): static;
-
 }
